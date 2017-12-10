@@ -206,23 +206,23 @@ function drawMenu() {
 
     drawString(ctx, "Next",
         offsetX, 0,
-        "rgba(255,255,255)", 32, "Orbitron",
+        "rgba(255,255,255,1)", 32, "Orbitron",
         0, 0, 0);
 
     drawString(ctx, "Move : Left,Right\n\nRotate : Up\n\nSoft Drop : Down\n\nHard Drop : Space\n\nHold : C",
         offsetX, height - 120,
-        "rgba(255,255,255)", 12, "Orbitron",
+        "rgba(255,255,255,1)", 12, "Orbitron",
         0, 0, 0);
 
     drawString(ctx, "Hold",
         offsetX, offsetY - size,
-        "rgba(255,255,255)", 28, "Orbitron",
+        "rgba(255,255,255,1)", 28, "Orbitron",
         0, 0, 0);
 
 
-    drawString(ctx, score + "",
+    drawString(ctx, score+"",
         10, 10,
-        "rgba(255,255,255)", 36, "Orbitron",
+        "rgba(255,255,255,1)", 36, "Orbitron",
         0, 0, 0);
 }
 
